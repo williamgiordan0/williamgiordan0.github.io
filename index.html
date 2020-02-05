@@ -1,9 +1,46 @@
 <!DOCTYPE html>
-<html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
 <head>
-    <title></title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-<h1>Hi </h1>
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">William Giordano</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="William Giordano">
+      </section>
+      <p>Hey there, I see you found my page, not sure if you could tell what my name is. I go by Will by the way, nice to meet you, virtually! I currently reside in Paramus, New Jersey,
+        but am very open to relocating on what ever job opportunity comes my way. I graduated from Montclair State University with Bachelors of Science with a study in Earth and Environmental Science. I now have my certification
+        in Data Science and Coding from Rutgers University. My knowledge about computers is extremely exceptional and I believe I would be a perfect candidate
+        for a job in the Data Science and coding industry. I know a lot about weather and am very passionate about that as well. Feel free to check out my contact information below and
+        get in contact with me at any time! <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">WillGiordano1@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">@williamgiordano0</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
+
 </html>
